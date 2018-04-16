@@ -63,12 +63,12 @@ public class CredVerifyAuthNode extends AbstractDecisionNode {
 
         @Attribute(order = 400)
         default CheckPolicy checkPolicy() {
-            return CheckPolicy.ENTERPRISE;
+            return CheckPolicy.enterprise;
         }
 
         @Attribute(order = 500)
         default UserIdType userIdType() {
-            return UserIdType.NOTUSED;
+            return UserIdType.not_used;
         }        
     }
 
@@ -154,16 +154,16 @@ public class CredVerifyAuthNode extends AbstractDecisionNode {
     }
 
     public enum CheckPolicy {
-        ENTERPRISE,
-        CONSUMER
+        enterprise,
+        consumer
     }
 
     public enum UserIdType {
-        NOTUSED,
-        AUTODETECT,
-        USERNAME,
-        EMAIL,
-        HASHEDEMAIL,
-        PHONENUMBER
+        not_used,
+        auto_detect,
+        username,
+        email,
+        hashed_email,
+        phone_number
     }
 }
