@@ -1,2 +1,0 @@
-amAuthUtils:01/05/2018 06:44:05:254 PM UTC: Thread[http-nio-8080-exec-7,5,main]: TransactionId[35def3f7-cada-4bb9-85fe-308f85b4ff52-34009]
-ERROR: AuthUtils:getAuthContext(): Invalid Session Timed out

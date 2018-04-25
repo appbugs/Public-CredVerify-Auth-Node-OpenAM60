@@ -83,8 +83,8 @@ public class CredVerifyAuthNode extends AbstractDecisionNode {
         this.coreWrapper = coreWrapper;
 
         String apiUrl = config.apiUrl();
-        String apiKey = config.apiUrl();
-        String apiSecret = config.apiUrl();
+        String apiKey = config.appKey();
+        String apiSecret = config.appSecret();
         checkPolicy = config.checkPolicy().toString();
         userIdType = config.userIdType().toString();
 
@@ -119,9 +119,10 @@ public class CredVerifyAuthNode extends AbstractDecisionNode {
         logger.info("VeriClouds::process starts");
 
         String userName = (String) context.sharedState.get(USERNAME).asString();
-        String userPassword = (String) context.sharedState.get(PASSWORD).asString();
+        String userPassword = (String) context.transientState.get(PASSWORD).asString();
         logger.info("userName = " + userName);
 
+        ResourceBundle bundle = context.request.locales.getBundleInPreferredLocale(BUNDLE, getClass().getClassLoader());
         try {
             logger.info("VeriClouds::process calling VeriClouds API");
             if (credVerify == null){
@@ -140,8 +141,8 @@ public class CredVerifyAuthNode extends AbstractDecisionNode {
             
             if (leaked == true){
                 logger.info("VeriClouds::process VeriClouds API: password leaked is true");
-                ResourceBundle bundle = context.request.locales.getBundleInPreferredLocale(BUNDLE, getClass().getClassLoader());
-                throw new NodeProcessException(bundle.getString("credverify-leaked-password"));
+                logger.error(bundle.getString("credverify-leaked-password"));
+                return goTo(false).build();
             }
             else{
                 logger.info("VeriClouds::process VeriClouds API: password leaked is false");
@@ -149,8 +150,8 @@ public class CredVerifyAuthNode extends AbstractDecisionNode {
             }
         } catch (Exception e) {
             logger.error("VeriClouds::process error", e);
+            return goTo(true).build();
         }
-        return goTo(false).build();
     }
 
     public enum CheckPolicy {

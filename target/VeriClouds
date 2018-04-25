@@ -1,0 +1,84 @@
+VeriClouds:04/25/2018 09:56:12:860 PM UTC: Thread[http-nio-8080-exec-3,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8607]
+ERROR: VeriClouds::init apiUrl = https://api.vericlouds.com/index.php
+VeriClouds:04/25/2018 09:56:12:860 PM UTC: Thread[http-nio-8080-exec-3,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8607]
+ERROR: VeriClouds::init apiKey = PartnerTRIAL_ForgeRock
+VeriClouds:04/25/2018 09:56:12:860 PM UTC: Thread[http-nio-8080-exec-3,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8607]
+ERROR: VeriClouds::init checkPolicy = consumer
+VeriClouds:04/25/2018 09:56:12:861 PM UTC: Thread[http-nio-8080-exec-3,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8607]
+ERROR: VeriClouds::init userIdType = username
+VeriClouds:04/25/2018 09:56:12:861 PM UTC: Thread[http-nio-8080-exec-3,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8607]
+ERROR: VeriClouds::process starts
+VeriClouds:04/25/2018 09:56:12:861 PM UTC: Thread[http-nio-8080-exec-3,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8607]
+ERROR: userName = ericlee2000
+VeriClouds:04/25/2018 09:56:12:861 PM UTC: Thread[http-nio-8080-exec-3,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8607]
+ERROR: VeriClouds::process calling VeriClouds API
+VeriClouds:04/25/2018 09:56:13:260 PM UTC: Thread[http-nio-8080-exec-3,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8607]
+ERROR: VeriClouds::process VeriClouds API: password leaked is false
+VeriClouds:04/25/2018 09:56:34:928 PM UTC: Thread[http-nio-8080-exec-9,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8785]
+ERROR: VeriClouds::init apiUrl = https://api.vericlouds.com/index.php
+VeriClouds:04/25/2018 09:56:34:929 PM UTC: Thread[http-nio-8080-exec-9,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8785]
+ERROR: VeriClouds::init apiKey = PartnerTRIAL_ForgeRock
+VeriClouds:04/25/2018 09:56:34:929 PM UTC: Thread[http-nio-8080-exec-9,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8785]
+ERROR: VeriClouds::init checkPolicy = consumer
+VeriClouds:04/25/2018 09:56:34:929 PM UTC: Thread[http-nio-8080-exec-9,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8785]
+ERROR: VeriClouds::init userIdType = username
+VeriClouds:04/25/2018 09:56:34:929 PM UTC: Thread[http-nio-8080-exec-9,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8785]
+ERROR: VeriClouds::process starts
+VeriClouds:04/25/2018 09:56:34:929 PM UTC: Thread[http-nio-8080-exec-9,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8785]
+ERROR: userName = 4251231234
+VeriClouds:04/25/2018 09:56:34:929 PM UTC: Thread[http-nio-8080-exec-9,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8785]
+ERROR: VeriClouds::process calling VeriClouds API
+VeriClouds:04/25/2018 09:56:35:225 PM UTC: Thread[http-nio-8080-exec-9,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8785]
+ERROR: VeriClouds::process VeriClouds API: password leaked is false
+VeriClouds:04/25/2018 09:56:58:650 PM UTC: Thread[http-nio-8080-exec-4,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8999]
+ERROR: VeriClouds::init apiUrl = https://api.vericlouds.com/index.php
+VeriClouds:04/25/2018 09:56:58:650 PM UTC: Thread[http-nio-8080-exec-4,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8999]
+ERROR: VeriClouds::init apiKey = PartnerTRIAL_ForgeRock
+VeriClouds:04/25/2018 09:56:58:650 PM UTC: Thread[http-nio-8080-exec-4,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8999]
+ERROR: VeriClouds::init checkPolicy = consumer
+VeriClouds:04/25/2018 09:56:58:650 PM UTC: Thread[http-nio-8080-exec-4,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8999]
+ERROR: VeriClouds::init userIdType = username
+VeriClouds:04/25/2018 09:56:58:650 PM UTC: Thread[http-nio-8080-exec-4,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8999]
+ERROR: VeriClouds::process starts
+VeriClouds:04/25/2018 09:56:58:650 PM UTC: Thread[http-nio-8080-exec-4,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8999]
+ERROR: userName = 4251231234
+VeriClouds:04/25/2018 09:56:58:650 PM UTC: Thread[http-nio-8080-exec-4,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8999]
+ERROR: VeriClouds::process calling VeriClouds API
+VeriClouds:04/25/2018 09:56:59:093 PM UTC: Thread[http-nio-8080-exec-4,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-8999]
+ERROR: VeriClouds::process VeriClouds API: password leaked is false
+VeriClouds:04/25/2018 09:58:18:247 PM UTC: Thread[http-nio-8080-exec-1,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-9683]
+ERROR: VeriClouds::init apiUrl = https://api.vericlouds.com/index.php
+VeriClouds:04/25/2018 09:58:18:247 PM UTC: Thread[http-nio-8080-exec-1,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-9683]
+ERROR: VeriClouds::init apiKey = PartnerTRIAL_ForgeRock
+VeriClouds:04/25/2018 09:58:18:247 PM UTC: Thread[http-nio-8080-exec-1,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-9683]
+ERROR: VeriClouds::init checkPolicy = consumer
+VeriClouds:04/25/2018 09:58:18:247 PM UTC: Thread[http-nio-8080-exec-1,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-9683]
+ERROR: VeriClouds::init userIdType = phone_number
+VeriClouds:04/25/2018 09:58:18:247 PM UTC: Thread[http-nio-8080-exec-1,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-9683]
+ERROR: VeriClouds::process starts
+VeriClouds:04/25/2018 09:58:18:247 PM UTC: Thread[http-nio-8080-exec-1,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-9683]
+ERROR: userName = 4251231234
+VeriClouds:04/25/2018 09:58:18:247 PM UTC: Thread[http-nio-8080-exec-1,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-9683]
+ERROR: VeriClouds::process calling VeriClouds API
+VeriClouds:04/25/2018 09:58:18:695 PM UTC: Thread[http-nio-8080-exec-1,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-9683]
+ERROR: VeriClouds::process VeriClouds API: password leaked is true
+VeriClouds:04/25/2018 09:58:18:695 PM UTC: Thread[http-nio-8080-exec-1,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-9683]
+ERROR: Our system found your password matches a stolen password from another site. Please contact system administrator to reset the password.
+VeriClouds:04/25/2018 10:00:28:524 PM UTC: Thread[http-nio-8080-exec-5,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-10742]
+ERROR: VeriClouds::init apiUrl = https://api.vericlouds.com/index.php
+VeriClouds:04/25/2018 10:00:28:524 PM UTC: Thread[http-nio-8080-exec-5,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-10742]
+ERROR: VeriClouds::init apiKey = PartnerTRIAL_ForgeRock
+VeriClouds:04/25/2018 10:00:28:524 PM UTC: Thread[http-nio-8080-exec-5,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-10742]
+ERROR: VeriClouds::init checkPolicy = enterprise
+VeriClouds:04/25/2018 10:00:28:524 PM UTC: Thread[http-nio-8080-exec-5,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-10742]
+ERROR: VeriClouds::init userIdType = phone_number
+VeriClouds:04/25/2018 10:00:28:524 PM UTC: Thread[http-nio-8080-exec-5,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-10742]
+ERROR: VeriClouds::process starts
+VeriClouds:04/25/2018 10:00:28:524 PM UTC: Thread[http-nio-8080-exec-5,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-10742]
+ERROR: userName = demo
+VeriClouds:04/25/2018 10:00:28:524 PM UTC: Thread[http-nio-8080-exec-5,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-10742]
+ERROR: VeriClouds::process calling VeriClouds API
+VeriClouds:04/25/2018 10:00:29:012 PM UTC: Thread[http-nio-8080-exec-5,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-10742]
+ERROR: VeriClouds::process VeriClouds API: password leaked is true
+VeriClouds:04/25/2018 10:00:29:012 PM UTC: Thread[http-nio-8080-exec-5,5,main]: TransactionId[73913a22-ff4e-4a75-b4ca-204bb96f2d1a-10742]
+ERROR: Our system found your password matches a stolen password from another site. Please contact system administrator to reset the password.
