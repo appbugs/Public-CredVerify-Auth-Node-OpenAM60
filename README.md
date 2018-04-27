@@ -10,7 +10,7 @@ Copy the .jar file from the ../target directory into the ../web-container/webapp
 ## Usage
 After the node is added, click the "VeriClouds CredVerify" on the canvas and fill out the configuration info as shown in the screenshot.
 
-![Configure Authentication Tree with CredVerify Node](https://raw.githubusercontent.com/appbugs/Public-CredVerify-Auth-Node-OpenAM60/master/img/AuthTreeConfig.png "Configure Authentication Tree with CredVerify Node")
+![Configure Authentication Tree with CredVerify Node](https://raw.githubusercontent.com/appbugs/Public-CredVerify-Auth-Node-OpenAM60/master/img/AuthTree.png "Configure Authentication Tree with CredVerify Node")
 
 ### Configure the CredVerify Authentication node
 **Authentication Level:** 1
