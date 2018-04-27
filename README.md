@@ -1,18 +1,18 @@
 # VeriClouds CredVerify Auth Node for OpenAM 6.0
 
-A leaked credential detection authentication module by VeriClouds for ForgeRock Access Management 5.5. VeriClouds CredVerify authentication module checks leaked credential through VeriClouds CredVerify Cloud API. If a user login ID and credential combination is found to match to a login ID and credential discovered in previous data breaches, the module will fail the authentication otherwise it will pass the authentication.
+A leaked credential detection authentication node by VeriClouds for ForgeRock Access Management 6.0. VeriClouds CredVerify authentication node checks leaked credential through VeriClouds CredVerify Cloud API. If a user login ID and credential combination is found to match to a login ID and credential discovered in previous data breaches, the node will fail the authentication otherwise it will pass the authentication.
 
-It is important to note that the Cloud API call will only pass user login name such as user name or email address to CredVerify Cloud API but not the user's password. CredVerify Cloud API will returned a list of masked user passwords as a result of querying by use login name and the matching to the leaked passwords will be happen in the authentication module which is deployed to a adopter's local environment.
+It is important to note that the Cloud API call will only pass user login name such as user name or email address to CredVerify Cloud API but not the user's password. CredVerify Cloud API will returned a list of masked user passwords as a result of querying by using login name and the matching to the leaked passwords will be happen in the authentication node which is deployed to a adopter's local environment.
 
 ## Installation
-Copy the .jar file from the ../target directory into the ../web-container/webapps/openam/WEB-INF/lib directory where AM is deployed. Restart the web container to pick up the new auth module. The auth module will then be available when navigate to Authentication -> Modules -> + Add Module. Select "VeriClouds CredVerify" in the New Module page.
+Copy the .jar file from the ../target directory into the ../web-container/webapps/openam/WEB-INF/lib directory where AM is deployed. Restart the web container to pick up the new auth node. The auth node will then be available when navigate to Authentication -> Trees -> Create Tree or select an existing tree. Drag and drop "VeriClouds CredVerify" from the Components to Authentication tree canvas.
 
 ## Usage
-After the module is added, click the "CredVerify" under Module Name column and fill the info for the module configuration
+After the node is added, click the "VeriClouds CredVerify" on the canvas and fill out the configuration info as shown in the screenshot.
 
 ![Configure Authentication Tree with CredVerify Node](https://raw.githubusercontent.com/appbugs/Public-CredVerify-Auth-Node-OpenAM60/master/img/AuthTreeConfig.png "Configure Authentication Tree with CredVerify Node")
 
-### Configure the CredVerify Authentication Module
+### Configure the CredVerify Authentication node
 **Authentication Level:** 1
 
 **VeriClouds API URL:** https://api.vericlouds.com/index.php
@@ -35,9 +35,8 @@ Auto Detect: Auto detect the user ID type based on the user input
 * Email Hash: Email ID is hashed to protect user privacy
 * Phone Number: Phone number like ID such as "2061112222"
 
-### Add CredVerify Authentication Module a Authentication Chain
-After the auth module is properly configured, to add it to an authentication chain navigate to "Authentication -> Chains". Create a new auth chain to add the CredVerify auth module to an existing chain. For example, select "ldapService" chain and click "Add Module" to add "CredVerify" to the module after "DataStore". Set the CredVerify auth module to be "required".
-
+### Connect "CredVerify Authentication" node in a Authentication Tree
+After the auth node is properly configured, position and connect the "VeriClouds CredVerify" node in the tree as the example in the above screenshot.
 
 ## To Build
 The code in this repository has binary dependencies that live in the ForgeRock maven repository. Maven can be configured to authenticate to this repository by following the following ForgeRock Knowledge Base Article. To rebuild, run "mvn clean install" in the directory containing the pom.xml
