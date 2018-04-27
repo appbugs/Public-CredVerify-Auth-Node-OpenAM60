@@ -10,6 +10,8 @@ Copy the .jar file from the ../target directory into the ../web-container/webapp
 ## Usage
 After the module is added, click the "CredVerify" under Module Name column and fill the info for the module configuration
 
+![Configure Authentication Tree with CredVerify Node](https://raw.githubusercontent.com/appbugs/Public-CredVerify-Auth-Node-OpenAM60/master/img/AuthTreeConfig.png "Configure Authentication Tree with CredVerify Node")
+
 ### Configure the CredVerify Authentication Module
 **Authentication Level:** 1
 
